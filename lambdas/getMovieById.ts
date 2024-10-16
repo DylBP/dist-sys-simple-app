@@ -1,4 +1,4 @@
-import { Handler } from "aws-cdk-lib/aws-lambda";
+import { Handler } from "aws-lambda";
 
 import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
 import { DynamoDBDocumentClient, GetCommand } from "@aws-sdk/lib-dynamodb";
